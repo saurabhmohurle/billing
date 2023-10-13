@@ -26,7 +26,6 @@ public class BillingController {
 	@Autowired
 	BillingService service;
 	
-	//BillingEntity billingentity;
 	String response;
 	
 	@PostMapping("/addBilling")
